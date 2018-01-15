@@ -6,7 +6,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="generator" content="Asciidoctor 1.5.5">
 <meta name="author" content="By">
-<title>Session 02: Introduction to R II</title>
+<title>Session 04: Introduction to R II</title>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,300italic,400,400italic,600,600italic%7CNoto+Serif:400,400italic,700,700italic%7CDroid+Sans+Mono:400,700">
 <style>
 /* Asciidoctor default stylesheet | MIT License | http://asciidoctor.org */
@@ -513,7 +513,7 @@ table.CodeRay td.code>pre{padding:0}
 </head>
 <body class="article toc2 toc-right">
 <div id="header">
-<h1>Session 02: Introduction to R II</h1>
+<h1>Session 04: Introduction to R II</h1>
 <div class="details">
 <span id="author" class="author">By</span><br>
 <span id="email" class="email"><a href="https://www.roger-beecham.com">Roger Beecham</a></span><br>
@@ -574,7 +574,7 @@ table.CodeRay td.code>pre{padding:0}
 </ul>
 </div>
 <div class="paragraph">
-<p>A print version of this document can be downloaded from [<a href="session_02.pdf">this link</a>]</p>
+<p>A print version of this document can be downloaded from [<a href="session_02.pdf">this link</a>].</p>
 </div>
 </div>
 </div>
@@ -962,6 +962,9 @@ Individual coding task
 </li>
 </ul>
 </div>
+<div class="paragraph">
+<p>You can quickly glance at the assessed task below. However, the document into which you&#8217;ll need to upload your answers can be found on <em>Minerva</em>, under this module (<em>GEOG5022M</em>), then <em>Learning Resources</em>. Click on this week&#8217;s folder (<code>Week 7 - R II</code>). You should see a word document called <code>PPD_Workshops_3_and_4_R.docx</code>. Download this document to a local directory&#8201;&#8212;&#8201;this is the document you will use to paste in your answers. Once you&#8217;ve completed the task, save the document using the filename <code>PPD_R_&lt;StudentID&gt;</code>. upload the completed document to <em>Turnitin</em>&#8201;&#8212;&#8201;again, a link is provided under <code>Week 7 - R II</code>.</p>
+</div>
 <div class="sect2">
 <h3 id="_assessed_task_1_calculate">Assessed task 1. Calculate</h3>
 <div class="sidebarblock">
@@ -969,13 +972,13 @@ Individual coding task
 <div class="olist loweralpha">
 <ol class="loweralpha" type="a">
 <li>
-<p>Calculate the <em>share of Leave</em> vote for GB as a whole. Note that you will need to work on the <code>data_gb</code> data frame for this.</p>
+<p>Calculate the <em>share of Leave</em> vote for GB as a whole. Note that you will need to work on the <code>data_gb</code> data frame for this. Once you&#8217;ve generated and run the code, paste it and its output (from the R console) into <code>PPD_Workshops_3_and_4_R.docx</code> for submission.</p>
 </li>
 <li>
-<p>Working on the <code>data_gb</code> data frame, find the top 10 LAs most and least in favour of Leave and print out the Local Authority name and <code>share_leave</code> result.</p>
+<p>Working on the <code>data_gb</code> data frame, find the top 10 LAs most and least in favour of Leave and print out the Local Authority name and <code>share_leave</code> result. Paste the code and its output into  <code>PPD_Workshops_3_and_4_R.docx</code> for submission. Hint: you may find useful the code block under Task 2 (from last week&#8217;s session).</p>
 </li>
 <li>
-<p>Calculate correlation coefficients for <code>share Leave</code> against the <code>eu_born</code> variable separately for each Region of GB. Hint: as well as the <code>cor</code> function for calculating the correlation coefficient, you will need to make use of <code>group_by</code>.</p>
+<p>Calculate correlation coefficients for <code>share Leave</code> against the <code>eu_born</code> variable separately for each Region of GB. Again, paste the code and its output into <code>PPD_Workshops_3_and_4_R.docx</code> for submission. Hint: as well as the <code>cor</code> function for calculating the correlation coefficient, you will need to make use of <code>group_by</code>.</p>
 </li>
 </ol>
 </div>
@@ -989,7 +992,7 @@ Individual coding task
 <div class="olist loweralpha">
 <ol class="loweralpha" type="a">
 <li>
-<p>Create a set of histograms displaying distributions of <code>share Leave</code> amongst LAs in Great Britain faceted by <code>Region</code>.</p>
+<p>Create a set of histograms displaying distributions of <code>share Leave</code> amongst LAs in Great Britain faceted by <code>Region</code>. Once you&#8217;ve created the plot, save it to a local folder by selecting <code>export</code>, <code>save as Image</code> along with the code snippet used to create it. Then paste the graphic and code into <code>PPD_Workshops_3_and_4_R.docx</code> for submission.</p>
 </li>
 </ol>
 </div>
@@ -1003,7 +1006,7 @@ Individual coding task
 <div class="olist loweralpha">
 <ol class="loweralpha" type="a">
 <li>
-<p>Using the code developed as part of Task 3 and Task 4 of this week&#8217;s session, generate a scatterplot and map of residuals from a model that assumes variation in the Leave vote to be a linear function of some demographic characteristic&#8201;&#8212;&#8201;this can be a census variable of your choice.  Your scatterplot and map should follow a visual grammar similar to that used in Figure 3.</p>
+<p>Using the code developed as part of Task 3 and Task 4 of this week&#8217;s session, generate a scatterplot and map of residuals from a model that assumes variation in the Leave vote to be a linear function of some demographic characteristic&#8201;&#8212;&#8201;this can be a census variable of your choice.  Your scatterplot and map should follow a visual grammar similar to that used in Figure 3. Paste the graphic and code into <code>PPD_Workshops_3_and_4_R.docx</code> for submission along with a summary of model fit and coefficients, generated by <code>summary(&lt;model-object-name&gt;)</code>.</p>
 </li>
 </ol>
 </div>
@@ -1074,12 +1077,19 @@ univariate_models %&gt;%
 </li>
 </ul>
 </div>
+<div class="paragraph">
+<p><br></p>
+</div>
+<hr>
+<div class="paragraph">
+<p><span class="small">Content by <a href="http://www.roger-beecham.com">Roger Beecham</a> | 2018 | Licensed under <a href="https://creativecommons.org/licenses/by/4.0/">Creative Commons BY 4.0</a>.</span></p>
+</div>
 </div>
 </div>
 </div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2018-01-08 15:10:42 GMT
+Last updated 2018-01-15 17:58:56 GMT
 </div>
 </div>
 <script type="text/x-mathjax-config">
